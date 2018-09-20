@@ -1,0 +1,1 @@
+{"rustc":5362242119021711120,"features":"[\"termination\"]","target":9443161484694370997,"profile":7990393541957723157,"path":16350881869728442600,"deps":[["nix v0.11.0","nix",10117380790302444136]],"local":[{"Precalculated":"3.1.1"}],"rustflags":[],"edition":"Edition2015"}

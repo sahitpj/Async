@@ -1,0 +1,8 @@
+[package]
+name = "rust_project"
+version = "0.1.0"
+authors = ["Jayakrishna Sahit <jayakrishna.sahit@iitgn.ac.in>"]
+
+[dependencies]
+libc = "0.2"
+ctrlc = { version = "3.0", features = ["termination"] }
