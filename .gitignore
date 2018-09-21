@@ -1,2 +1,6 @@
 # system files
 .DS_Store
+
+# target folder
+target
+

@@ -1,3 +1,4 @@
+
 pub const RED: &str = "\x1b[31m";
 pub const GREEN: &str = "\x1b[32m";
 pub const ANSI_COLOR_YELLOW: &str = "\x1b[33m";

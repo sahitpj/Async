@@ -6,3 +6,7 @@ authors = ["Jayakrishna Sahit <jayakrishna.sahit@iitgn.ac.in>"]
 [dependencies]
 libc = "0.2"
 ctrlc = { version = "3.0", features = ["termination"] }
+futures = "0.1.24"
+tokio-core = "0.1.17"
+tokio-signal = "0.2.5"
+tokio-io = "0.1.8"
