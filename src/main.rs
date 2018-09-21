@@ -7,10 +7,6 @@ pub mod colors;
 pub mod shell;
 pub mod utils;
 
-// extern crate ctrlc;
-// use std::sync::atomic::{AtomicBool, Ordering};
-// use std::sync::Arc;
-
 
 
 fn main() {
@@ -53,7 +49,7 @@ fn command_line() {
                     dependent_command.pop();
                 }
                 match dependent_command[0] {
-                    "exit" => std::process::exit(0),
+                    "quit" => std::process::exit(0),
                     "cd" => {
                         last_exit_status = shell::change_dir(dependent_command[1]);
                     }
@@ -61,10 +57,8 @@ fn command_line() {
                         last_exit_status = execute_command(dependent_command, is_background);
                     }
                 }
-                if last_exit_status == false {
-                    break;
-                } else {
-                    command_line();
+                if last_exit_status {
+                command_line();
                 }
             }
         }

@@ -2,5 +2,5 @@
 .DS_Store
 
 # target folder
-target
+target/
 
