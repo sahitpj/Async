@@ -1,5 +1,5 @@
 # Async
-Modern Shell written in Rust for golang
+The Developer's shell, written in rust.
 
 The name Async comes from the fact, the project sprung out from me trying to implement to a simple asynchronous system interrupt along side an IO operation in rust (Yeah it's a pretty crazy story)
 
@@ -17,7 +17,7 @@ for enthusiastic coders who are new to the following languages. This is because 
 - special shell commands for each language in terms of project development, testing and CI making
   
 
-Contributions are always welcome, even if you have zero experience towards the language.
+Contributions are always welcome, even if you have zero experience towards the language. In order to contribute clone the develop branch of the repository and start working
 
 ### Running the project 
 

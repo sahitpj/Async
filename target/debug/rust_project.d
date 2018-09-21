@@ -1,1 +1,0 @@
-/Users/jayakrishnasahit/Documents/GitHub/rust_project/target/debug/rust_project.dSYM: /Users/jayakrishnasahit/Documents/GitHub/rust_project/src/colors.rs /Users/jayakrishnasahit/Documents/GitHub/rust_project/src/main.rs /Users/jayakrishnasahit/Documents/GitHub/rust_project/src/shell.rs /Users/jayakrishnasahit/Documents/GitHub/rust_project/src/utils.rs
