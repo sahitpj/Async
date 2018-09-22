@@ -3,8 +3,6 @@ The Developer's shell, written in rust.
 
 The name Async comes from the fact, the project sprung out from me trying to implement to a simple asynchronous system interrupt along side an IO operation in rust (Yeah it's a pretty crazy story)
 
-Inspired by [this project](https://github.com/psinghal20/rush)
-
 The main idea of the project is to be able to provide a development environment for 
 - Go Projects
 - Python projects
@@ -34,3 +32,4 @@ cd Async
 cargo run
 ```
 
+special mentions to [this project](https://github.com/psinghal20/rush)
